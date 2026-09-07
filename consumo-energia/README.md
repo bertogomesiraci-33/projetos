@@ -41,3 +41,4 @@ Projeto desenvolvido para cálculo e análise do consumo de energia elétrica de
 1. Clone o repositório em sua máquina:
    ```bash
    git clone [https://github.com/bertogomesiraci-33/projetos.git](https://github.com/bertogomesiraci-33/projetos.git)
+   
