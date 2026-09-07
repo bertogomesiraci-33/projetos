@@ -1,44 +1,41 @@
 # ⚡ Calculadora de Consumo Elétrico Inteligente
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
+![Git](https://img.shields.io/badge/Git-Versionamento-orange?logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Publicado-lightgrey?logo=github&logoColor=white)
+![Energia](https://img.shields.io/badge/Eficiência-Energética-yellow?logo=lightning)
 ![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
-![Git](https://img.shields.io/badge/Git-Versionado-orange?logo=git)
-![GitHub](https://img.shields.io/badge/GitHub-Publicado-lightgrey?logo=github)
 
-Projeto desenvolvido para cálculo e análise do consumo de energia elétrica de eletrodomésticos, permitindo estimar o impacto financeiro mensal na conta de luz e emitir alertas de eficiência energética com base em estruturas condicionais.
+Projeto desenvolvido para estimar o consumo mensal de energia elétrica de aparelhos domésticos em quilowatt-hora ($kWh$) e calcular o custo financeiro aproximado em Reais ($R\$$), aplicando estruturas de decisão para alertar sobre alto consumo.
 
 ---
 
-## 📌 Funcionalidades
-
-- **Sanitização de Dados:** Tratamento de entradas do usuário com `.strip()` para remoção de espaços extras e `.replace(',', '.')` para suporte a números com vírgula ou ponto.
-- **Cálculo de Consumo:** Conversão da potência do aparelho (Watts) e horas diárias de uso em consumo diário e mensal em quilowatts-hora ($kWh$).
-- **Custo Estimado:** Cálculo financeiro mensal em Reais ($R\$$) a partir do valor da tarifa da distribuidora.
-- **Estrutura de Decisão (`if/else`):** Análise automática que emite um alerta caso o consumo mensal do aparelho ultrapasse o limite estipulado (50 kWh/mês).
+## 📌 Objetivo do Sistema
+Auxiliar os usuários a calcularem o impacto de seus aparelhos eletrônicos na conta de luz mensal, promovendo a conscientização energética e o uso eficiente de eletrodomésticos.
 
 ---
 
-## 🧮 Fórmulas Matemáticas Utilizadas
-
-1. **Consumo Diário:**
-   $$\text{Consumo Diário (kWh)} = \frac{\text{Potência (W)} \times \text{Horas/Dia}}{1000}$$
-
-2. **Consumo Mensal:**
-   $$\text{Consumo Mensal (kWh)} = \text{Consumo Diário (kWh)} \times \text{Dias de Uso no Mês}$$
-
-3. **Custo Estimado:**
-   $$\text{Custo Mensal (R\$)} = \text{Consumo Mensal (kWh)} \times \text{Tarifa (R\$/kWh)}$$
+## 🛠️ Tecnologias Utilizadas
+* **Linguagem:** Python 3
+* **Ambiente de Desenvolvimento:** Visual Studio Code (VS Code)
+* **Controle de Versão:** Git e GitHub
 
 ---
 
-## 🚀 Como Executar o Projeto
+## 🧮 Fórmula Utilizada
 
-### Pré-requisitos
-- Ter o **Python 3** instalado em sua máquina.
-- Ter o **Git** instalado.
+O consumo de energia elétrica mensal é processado pela seguinte equação matemática:
 
-### Passo a Passo
+$$\text{consumoMensal} = \frac{\text{potencia} \times \text{horasDia} \times 30}{1000}$$
+
+Para a estimativa de custos financeiros:
+
+$$\text{custoEstimado} = \text{consumoMensal} \times \text{tarifaFixa}$$
+
+---
+
+## 🚀 Instruções para Executar o Programa
+
 1. Clone o repositório em sua máquina:
    ```bash
    git clone [https://github.com/bertogomesiraci-33/projetos.git](https://github.com/bertogomesiraci-33/projetos.git)
-   
