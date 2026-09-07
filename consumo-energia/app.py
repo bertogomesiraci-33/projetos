@@ -23,6 +23,12 @@ print(f"Consumo estimado: {consumo_mensal:.2f} KWh/mês")
 print("\n---Resultado do custo estimado---")
 print(f"Custo estimado: R$ {custo_estimado:.2f} mês")
 
+# Estrutura de decisão para alerta de consumo
+if consumo_mensal > 50:
+    print("\n[ALERTA] Este aparelho possui um consumo elevado de energia!")
+    print("Dica: Considere reduzir o tempo de uso diário.")
+else:
+    print("\n[INFO] Este aparelho possui um consumo dentro do padrão econômico.")
 
 
                   
