@@ -3,8 +3,9 @@ Programa de desconto progressivo
 Aplicar descontos progressivos de acordo com o valor total da compra
 
 Regras de descontos
-- Valor total da compra for menor do que R$ 200,00 o cliente recebe um desconto 5%
-- Valor total da compra for maior ou igual a R$ 200,00 e menor que R$ 300,00 
+- Valor total da compra for menor do que R$ 200,00 
+o cliente recebe um desconto 5%
+- Valor total da compra for maior ou igual a R$ 200,00 e menor que R$ 300,00,
 o cliente recebe um desconto de 10%
 - Valor total da compra for maior ou igual a R$ 300,00
 o cliente recebe um desconto de 15% 
