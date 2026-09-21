@@ -1,4 +1,4 @@
-#Classificação consulo de água
+#Classificação consumo de água
 print("="*50)
 print("  SISTEMA DE CLASSIFICAÇÃO DE CONSUMO DE ÁGUA  ")
 print("="*50)
