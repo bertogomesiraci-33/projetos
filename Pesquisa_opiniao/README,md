@@ -1,0 +1,58 @@
+# 📊 Pesquisa de Satisfação de Atendimento — TudoWeb
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Projeto-TudoWeb-792ee5?style=for-the-badge&logo=codeigniter&logoColor=white" alt="TudoWeb" />
+  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Amostra_de_Teste-10_Clientes-orange?style=for-the-badge&logo=speedtest&logoColor=white" alt="Amostra" />
+  <img src="https://img.shields.io/badge/IDE-VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
+  <img src="https://img.shields.io/badge/Curso-Desenvolvimento_de_Sistemas-success?style=for-the-badge&logo=gitbook&logoColor=white" alt="DS" />
+</p>
+
+---
+
+## 🎯 O que o script faz
+
+Este script é uma aplicação de terminal desenvolvida em Python para automatizar a coleta e o processamento de métricas de satisfação da empresa **TudoWeb**. 
+
+O programa executa as seguintes operações em lote:
+
+1. **Iteração controlada:** Executa uma rotina sequencial para atender uma amostra de clientes (configurado para **10 entrevistados** na fase de homologação/testes).
+2. **Entrada de dados cadastrais e métrica:** Solicita o `nome`, a `idade` e a nota de avaliação do atendimento de cada pessoa.
+3. **Validação de entrada (*Error Handling*):** Intercepta e bloqueia opções que estejam fora do intervalo previsto (`1`, `2` ou `3`). Se o usuário digitar valores inválidos (ex: `4`, `5` ou `99`), o script mantém o usuário no laço de validação até que uma resposta válida seja informada, garantindo integridade aos dados.
+4. **Limpeza da UI de terminal:** Usa chamadas de sistema (`os.system`) para limpar a tela a cada novo entrevistado, mantendo a interface do console limpa.
+5. **Apuração e relatório:** Ao término de todas as iterações, consolida e exibe no terminal a quantidade total de clientes que avaliaram o atendimento como:
+   - **"EXCELENTE"** (Opção 1).
+   - **"BOM"** (Opção 2).
+   - **"RUIM"** (Opção 3).
+
+---
+
+## ⚙️ Arquitetura e Lógica Aplicada
+
+Como projeto da disciplina de Técnicas de Programação / Algoritmos, o código aplica conceitos essenciais de programação estruturada:
+
+| Estrutura | Função no Código |
+| :--- | :--- |
+| `for i in range(...)` | Laço de repetição com número pré-fixado de iterações para o lote de clientes. |
+| `while opiniao not in [1, 2, 3]` | Laço condicional para validação defensiva de dados de entrada antes do cômputo. |
+| `if / elif` | Estrutura de seleção para incrementar os acumuladores das notas solicitadas. |
+| `os.system('cls')` | Chamada ao sistema operacional para renovação visual do terminal a cada iteração. |
+
+---
+
+## 🧪 Execução do Teste Homologado
+
+### Escala de Avaliação:
+* `1`: **EXCELENTE** *(computado no relatório final)*
+* `2`: **BOM** *(computado no relatório final)*
+* `3`: **RUIM** *(computado no relatório final)*
+
+### Saída esperada no console ao final da 10ª resposta:
+```text
+========================================
+         RESULTADO DA PESQUISA
+========================================
+a) Quantidade de respostas 'EXCELENTE': 5
+b) Quantidade de respostas 'BOM': 3
+c) Quantidade de respostas 'RUIM': 2
+========================================
