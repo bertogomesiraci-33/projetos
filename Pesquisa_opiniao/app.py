@@ -12,6 +12,7 @@ total_entrevistados = 10
 
 # Inicialização dos contadores solicitados 
 qtde_excelente = 0
+qtde_bom = 0
 qtde_ruim = 0
 
 # Estrutura de repetição para coletar os dados dos entrevistados (de 1 até 10)
@@ -34,15 +35,17 @@ for i in range(1, total_entrevistados + 1):
     # Estruturas de decisão para totalizar as respostas
     if opiniao == 1:
         qtde_excelente += 1
+    elif opiniao == 2:
+        qtde_bom += 1
     elif opiniao == 3:
-        qtde_ruim +=1
+        qtde_ruim += 1
 
 # Exibição dos resultados solicitados:
-# Executado no final fora do laço de repetição
-print("="*40)
+print("\n" + "=" * 40)
 print("    RESULTADO DA PESQUISA")
-print("="*40)
+print("=" * 40)
 print(f"a) Quantidade de respostas 'EXCELENTE': {qtde_excelente}")
-print(f"b) Quantidade de respostas 'RUIM': {qtde_ruim}")
-print("=*40")
+print(f"b) Quantidade de respostas 'BOM': {qtde_bom}")
+print(f"c) Quantidade de respostas 'RUIM': {qtde_ruim}")
+print("=" * 40)
 
