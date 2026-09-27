@@ -1,5 +1,18 @@
 # 📊 Pesquisa de Satisfação de Atendimento — TudoWeb
 
+
+<!-- Badges de Identificação Institucional e Tecnologias -->
+<p align="left">
+  <img src="https://img.shields.io/badge/ETEC-Centro_Paula_Souza-B22222?style=for-the-badge&logo=codeforces&logoColor=white" alt="ETEC CPS" />
+  <img src="https://img.shields.io/badge/Curso-Desenvolvimento_de_Sistemas-005691?style=for-the-badge&logo=gitbook&logoColor=white" alt="Desenvolvimento de Sistemas" />
+  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/IDE-VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
+  <img src="https://img.shields.io/badge/Amostra_de_Teste-10_Clientes-orange?style=for-the-badge&logo=speedtest&logoColor=white" alt="10 Testes" />
+</p>
+
+---
+
+
 <p align="left">
   <img src="https://img.shields.io/badge/Projeto-TudoWeb-792ee5?style=for-the-badge&logo=codeigniter&logoColor=white" alt="TudoWeb" />
   <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
