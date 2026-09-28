@@ -11,6 +11,12 @@
 </p>
 
 ---
+## 🚀 Como Executar o Projeto
+
+Certifique-se de ter o Python instalado na sua máquina. Abra o terminal na pasta do projeto e rode o seguinte comando:
+
+```bash
+python app.py
 
 ## 🎯 O que o script faz
 
