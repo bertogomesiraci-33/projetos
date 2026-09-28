@@ -72,13 +72,13 @@ Abaixo estão os registros visuais do funcionamento e execução do script:
 **2. Início da Coleta de Dados**  
 ![Print 2](assets/print_codigo_1.png)
 
-**3. Validação de Opção Inválida (Tratamento de Erro)**  
+**3. Terminal durante as Entrevistas de 01 a 06**  
 ![Print 3](assets/print_Resultado%201%20a%206.png)
 
-**4. Terminal durante as Entrevistas**  
+**4. Terminal com as Entrevistas de 07 a 10 e a Consolidação dos Resultados**  
 ![Print 4](assets/print_Resultado%207%20a%2010.png)
 
-**5. Consolidação e Resultado Final**  
+**5. 3. Validação de Opção Inválida (Tratamento de Erro)**  
 ![Print 5](assets/print_Resultado_Nota%20inv%C3%A1lida.png)
 
 ---
