@@ -7,19 +7,16 @@ Regra de negócio: 1- EXCELENTE, 2- BOM, 3- RUIM.
 import os
 os.system("cls") # Limpa a tela no windows
 
-# Total de entrevistados para realizar a pesquisa
-total_entrevistados = 50
-
 # Inicialização dos contadores solicitados 
 qtde_excelente = 0
 qtde_bom = 0
 qtde_ruim = 0
 
 # Estrutura de repetição para coletar os dados dos entrevistados (de 1 até 50)
-for i in range(1, total_entrevistados + 1):
+for i in range(1, 11):
 
     # Coleta dos dados do entrevistado
-    print(f"\n--- Entrevistado {i} de {total_entrevistados} ---")
+    print(f"\n--- Entrevistado {i} de 10 ---")
     nome = input("Digite o seu nome: ")
     idade = int(input("Digite a sua idade: "))
 
