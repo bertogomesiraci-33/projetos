@@ -54,9 +54,9 @@ Como projeto da disciplina de Técnicas de Programação / Algoritmos, o código
 ========================================
          RESULTADO DA PESQUISA
 ========================================
-a) Quantidade de respostas 'EXCELENTE': 5
+a) Quantidade de respostas 'EXCELENTE': 4
 b) Quantidade de respostas 'BOM': 3
-c) Quantidade de respostas 'RUIM': 2
+c) Quantidade de respostas 'RUIM': 3
 ========================================
 ```
 
