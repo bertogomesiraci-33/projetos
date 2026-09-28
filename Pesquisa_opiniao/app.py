@@ -13,10 +13,10 @@ qtde_bom = 0
 qtde_ruim = 0
 
 # Estrutura de repetição para coletar os dados dos entrevistados (de 1 até 50)
-for i in range(1, 11):
+for i in range(1, 51):
 
     # Coleta dos dados do entrevistado
-    print(f"\n--- Entrevistado {i} de 10 ---")
+    print(f"\n--- Entrevistado {i} de 50 ---")
     nome = input("Digite o seu nome: ")
     idade = int(input("Digite a sua idade: "))
 
