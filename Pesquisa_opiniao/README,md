@@ -71,6 +71,24 @@ c) Quantidade de respostas 'RUIM': 2
 ========================================
 
 ---
+## 📸 Galeria e Demonstração do Sistema
+
+Abaixo estão os registros visuais do funcionamento e execução do script:
+
+**1. Estrutura Inicial do Código**
+![Print 1](assets/print_codigo.png)
+
+**2. Início da Coleta de Dados**
+![Print 2](assets/print_codigo_1.png)
+
+**3. Validação de Opção Inválida (Tratamento de Erro)**
+![Print 3](assets/print_Resultado 1 a 6.png)
+
+**4. Terminal durante as Entrevistas**
+![Print 4](assets/print_Resultado 7 a 10.png)
+
+**5. Consolidação e Resultado Final**
+![Print 5](assets/print_Resultado_Nota inválida.png)
 
 ## 👩‍💻 Autora
 
