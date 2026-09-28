@@ -8,14 +8,14 @@ import os
 os.system("cls") # Limpa a tela no windows
 
 # Total de entrevistados para realizar a pesquisa
-total_entrevistados = 10
+total_entrevistados = 50
 
 # Inicialização dos contadores solicitados 
 qtde_excelente = 0
 qtde_bom = 0
 qtde_ruim = 0
 
-# Estrutura de repetição para coletar os dados dos entrevistados (de 1 até 10)
+# Estrutura de repetição para coletar os dados dos entrevistados (de 1 até 50)
 for i in range(1, total_entrevistados + 1):
 
     # Coleta dos dados do entrevistado
