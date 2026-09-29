@@ -24,11 +24,11 @@ Este script é uma aplicação de terminal desenvolvida em Python para automatiz
 
 O programa executa as seguintes operações em lote:
 
-1. **Iteração controlada:** Executa uma rotina sequencial para atender uma amostra de clientes (configurado para **10 entrevistados** na fase de homologação/testes).
-2. **Entrada de dados cadastrais e métrica:** Solicita o `nome`, a `idade` e a nota de avaliação do atendimento de cada pessoa.
-3. **Validação de entrada (*Error Handling*):** Intercepta e bloqueia opções fora do intervalo previsto (`1`, `2` ou `3`). Se o usuário digitar valores inválidos (ex: `4`, `5` ou texto), o script mantém o usuário no laço de validação até que uma resposta válida seja informada.
-4. **Limpeza da UI de terminal:** Usa chamadas de sistema (`os.system`) para limpar a tela a cada novo entrevistado, mantendo a visualização organizada.
-5. **Apuração e relatório:** Ao término das iterações, consolida e exibe no terminal o total de avaliações em cada categoria:
+1. **Iteração controlada:** Executa uma rotina sequencial para processar **50 entrevistados** (`for i in range(1, 51)`), permitindo também amostragem reduzida para testes.
+2. **Entrada de dados cadastrais e métrica:** Coleta o `nome`, a `idade` e a nota de avaliação do atendimento de cada participante.
+3. **Validação de entrada:** Intercepta opções numéricas fora do menu previsto (`1`, `2` ou `3`). Caso o usuário digite um número inválido, o laço de repetição condicional exige uma nova digitação até que um valor correto seja fornecido.
+4. **Limpeza inicial do terminal:** Executa `os.system("cls")` na inicialização do script para preparar a interface de console no ambiente Windows.
+5. **Apuração e relatório:** Ao término de todos os registros, totaliza e exibe no terminal a contagem de votos por categoria:
    - **"EXCELENTE"** (Opção 1)
    - **"BOM"** (Opção 2)
    - **"RUIM"** (Opção 3)
@@ -41,12 +41,24 @@ Como projeto da disciplina de Técnicas de Programação / Algoritmos, o código
 
 | Estrutura | Função no Código |
 | :--- | :--- |
-| `for i in range(...)` | Laço de repetição com número pré-fixado de iterações para o lote de clientes. |
-| `while opiniao not in [1, 2, 3]` | Laço condicional para validação defensiva de dados de entrada antes do cômputo. |
-| `if / elif` | Estrutura de seleção para incrementar os acumuladores das notas solicitadas. |
-| `os.system('cls')` | Chamada ao sistema operacional para renovação visual do terminal a cada iteração. |
+| `for i in range(1, 51)` | Laço com número pré-fixado de iterações para processar o lote de clientes (amostra nominal de 50). |
+| `while opiniao not in [1, 2, 3]` | Laço condicional para validação de dados de entrada antes do cômputo. |
+| `if / elif` | Estrutura de seleção encadeada para incrementar os contadores de cada categoria. |
+| `os.system("cls")` | Chamada ao sistema operacional para limpeza da tela no início da execução. |
 
 ---
+
+## 🧪 Execução do Teste Homologado (Amostra Reduzida)
+
+Para validação rápida do fluxo e integridade da lógica de contagem, foi executado um teste de homologação com uma amostra de **10 entrevistados** (`range(1, 11)`).
+
+### Escala de Avaliação:
+* `1`: **EXCELENTE**
+* `2`: **BOM**
+* `3`: **RUIM**
+
+### Saída obtida no console ao final da 10ª resposta:
+```text
 
 ## 🧪 Execução do Teste Homologado
 
@@ -64,8 +76,6 @@ a) Quantidade de respostas 'EXCELENTE': 4
 b) Quantidade de respostas 'BOM': 3
 c) Quantidade de respostas 'RUIM': 3
 ========================================
-```
-
 ---
 
 ## 📸 Galeria e Demonstração do Sistema
