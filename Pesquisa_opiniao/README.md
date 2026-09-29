@@ -17,6 +17,7 @@ Certifique-se de ter o Python instalado na sua máquina. Abra o terminal na past
 
 ```bash
 python app.py
+```
 
 ## 🎯 O que o script faz
 
@@ -58,16 +59,7 @@ Para validação rápida do fluxo e integridade da lógica de contagem, foi exec
 * `3`: **RUIM**
 
 ### Saída obtida no console ao final da 10ª resposta:
-```text
 
-## 🧪 Execução do Teste Homologado
-
-### Escala de Avaliação:
-* `1`: **EXCELENTE** *(computado no relatório final)*
-* `2`: **BOM** *(computado no relatório final)*
-* `3`: **RUIM** *(computado no relatório final)*
-
-### Saída esperada no console ao final da 10ª resposta:
 ```text
 ========================================
          RESULTADO DA PESQUISA
@@ -76,6 +68,8 @@ a) Quantidade de respostas 'EXCELENTE': 4
 b) Quantidade de respostas 'BOM': 3
 c) Quantidade de respostas 'RUIM': 3
 ========================================
+```
+
 ---
 
 ## 📸 Galeria e Demonstração do Sistema
@@ -89,13 +83,13 @@ Abaixo estão os registros visuais do funcionamento e execução do script:
 ![Print 2](assets/print_codigo_1.png)
 
 **3. Terminal durante as Entrevistas de 01 a 06**  
-![Print 3](assets/print_Resultado 1 a 6.png)
+![Print 3](assets/print_resultado_1_a_6.png)
 
 **4. Terminal com as Entrevistas de 07 a 10 e a Consolidação dos Resultados**  
-![Print 4](assets/print_Resultado 7 a 10.png)
+![Print 4](assets/print_resultado_7_a_10.png)
 
-**5. 3. Validação de Opção Inválida (Tratamento de Erro)**  
-![Print 5](assets/print_Resultado_Nota inválida.png)
+**5. Validação de Opção Inválida (Tratamento de Erro)**  
+![Print 5](assets/print_resultado_nota_invalida.png)
 
 ---
 
